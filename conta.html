@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="conta.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho">
+            <div class="div-link-cabecalho">
+                <a href="index.html"><img class="icones" style="width: 2vw;" src="./assets/seta.png" alt=""></a>
+            </div>
+            <div class="div-imagem-cabecalho">
+                <img class="logo" src="./assets/logo2.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="nome-conta"></h1>
+        <div class="botoes">
+            <button onclick="deslogar(event)"" class="button-deslogar">Deslogar</button>
+            <button onclick="atualizarConta(event)"" class="button-deslogar">Editar Conta</button>
+            <button onclick="apagarConta(event)"" class="button-deslogar">Deletar Conta</button>
+        </div>
+        <p class="email"></p>
+    </main>
+    <script src="./conta.js"></script>
+</body>
+
+</html>

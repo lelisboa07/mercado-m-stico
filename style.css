@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./assets/fundo1.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* HEADER */
+
+#cabecalho{
+    background-color: #211522d0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 21vh;
+}
+
+.div-imagem-cabecalho {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% 0;
+}
+
+.icones{
+    margin: 15px;
+}
+
+.admin {
+    display: none;
+    filter: invert();
+}
+
+.logo{
+    width: 10vw;
+}
+
+.logo{
+ 
+    animation: girar 3s linear ;
+    transform-origin: center; 
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#categorias{
+    transition: 0.5s;
+    background-color: #613659d1;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+.redirecionar{
+    transition: 0.9s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.redirecionar:hover{
+    scale: 0.6;
+}
+
+/* MAIN */
+
+h1{
+    font-family: "Cinzel", serif;
+    background-color: #B68D40;
+    width: 25vw;
+    height: 10vh;
+    margin-top: 50px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fileiras{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.produtos{
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 20vw;
+    height: 57vh;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.produtos:hover{
+    scale: 1.1;
+}
+
+.img-produtos{
+    width: 20vw;
+}
+
+.carrinhos{
+    width: 2.3vw;
+    height: 4vh;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.carrinho:hover {
+    scale: 1.1;
+}
+
+.preco{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.botao-carrinho{
+    border: none;
+    background-color: #FFFFFF;
+    height: 2px;
+}
+.botao-carrinho:hover{
+    scale: 1.1;
+}
+
+/* FOOTER */
+
+.redes{
+    background-color: #613659d1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rede{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}

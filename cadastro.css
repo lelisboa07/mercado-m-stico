@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./assets/fundo1.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#cabecalho{
+    background-color: #211522d0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 10vw;
+}
+
+.div-imagem-cabecalho {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% 0;
+}
+
+.icones{
+    margin: 20px;
+}
+
+.logo{
+    width: 10vw;
+}
+
+h1{
+    font-family: "Cinzel", serif;
+    border-radius: 5px;
+    background-color: #B68D40;
+    width: 25vw;
+    height: 10vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+#titulo1{
+    padding-left: 20px;
+}
+
+h2{
+    align-items: center;
+    font-family: "Cinzel", serif;
+    margin: 5px;
+}
+
+.formularios{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-quadro{
+    background-color: 
+    #ffffff9d;
+    border-radius: 5px;
+    width: 25vw;
+    padding: 15px;
+    min-height: 35vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#titulo-final{
+    display: flex;
+    justify-content: center;
+}
+
+#final{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+span{
+    align-self: flex-start;
+    width: 10vw;
+}
+
+.img-fechar{
+    width: 2vw;
+    margin-top: 20px;
+}
+
+.modal{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 20vh;
+    padding: 10px;
+    visibility: hidden;
+    background-color: #b68d40e1;
+    border: 1px solid black;
+}
+
+.formulario-quadro a {
+    color: black;
+    margin-top: 15px;
+    font-size: 18px;
+}

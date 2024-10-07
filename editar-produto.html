@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar produto</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="editar-produto.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho">
+            <div class="div-link-cabecalho">
+                <a href="index.html"><img class="icones" style="width: 2vw;" src="./assets/seta.png" alt=""></a>
+            </div>
+            <div class="div-imagem-cabecalho">
+                <img class="logo" src="./assets/logo2.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="titulo1">Editar produto</h1>
+        <section class="formularios">
+
+            <div class="formulario-quadro">
+                <p>ID do produto:</p>
+                <form action="">
+                    <input id="id" type="text" required>
+                </form>
+                <p>Nome do produto:</p>
+                <form action="">
+                    <input id="nome" type="text" required>
+                </form>
+                </form>
+                <p>Preço:</p>
+                <form action="">
+                    <input id="valor" type="text" required>
+                </form>
+                <p>Descrição:</p>
+                <form action="">
+                    <textarea id="descricao" name="descricao" placeholder="Mín: 40 caractéres" rows="6"></textarea>
+                </form>
+                <a href="produto.html">Criar Produto</a>
+            </div>
+
+            <div id="titulo-final">
+                <button onclick="{editarProduto(event)}"><h1 id="final">Editar Produto</h1></button>
+            </div>
+
+            <button class="button-deletar" onclick="{apagarProduto(event)}">Apagar Produto</button>
+        </section>
+
+        <div class="modal">
+            <div class="titulo">
+                <h2>Cadastro confirmado!</h2>
+            </div>
+            <p>Cadastro de produto concluido!</p>
+            <a href="./index.html"><span class="close" id="fechar-modal"><img class="img-fechar"
+                        src="./assets/fechar.png" alt=""></span></a>
+        </div>
+    </main>
+    <script src="./editar-produto.js"></script>
+</body>
+
+</html>

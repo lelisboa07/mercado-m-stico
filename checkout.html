@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <div class="div-link-cabecalho">
+                <a href="carrinho.html"><img class="icones" style="width: 2vw;" src="./assets/seta.png" alt=""></a>
+            </div>
+            <div class="div-imagem-cabecalho">
+                <img class="logo" src="./assets/logo2.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Checkout</h1>
+        <section class="formularios">
+            <section class="formulario-quadro">
+                <h2>Dados Pessoais:</h2>
+                <div class="formulario">
+                    <p>Nome Completo:</p>
+                    <form action="">
+                        <input type="text" placeholder="Maria Santos" required>
+                    </form>
+                    <p>E-mail:</p>
+                    <form action="">
+                        <input type="text" placeholder="mariaS@exemplo.com" required>
+                    </form>
+                    <p>Senha:</p>
+                    <form action="">
+                        <input type="text" placeholder="Digite sua senha" required>
+                    </form>
+                    <p>Telefone:</p>
+                    <form action="">
+                        <input type="text" placeholder="(__)_____-____" required>
+                    </form>
+                    <p>CPF:</p>
+                    <form action="">
+                        <input type="text" placeholder="Digite seu cpf" required>
+                    </form>
+                    <p>Data de Nascimento:</p>
+                    <form action="">
+                        <input type="text" placeholder="__/__/____" required>
+                    </form>
+                </div>
+            </section>
+    
+            <section class="formulario-quadro">
+                <h2>Local de Entrega:</h2>
+                <div class="formulario">
+                    <p>CEP:</p>
+                    <form action="">
+                        <input type="text" placeholder="_____-___" required>
+                    </form>
+                    <p>Endereço:</p>
+                    <form action="">
+                        <input type="text" placeholder="Rua Exemplar, 00" required>
+                    </form>
+                    <p>Bairro:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                    <p>Cidade:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                    <p>Estado:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                    <p>País:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                </div>
+            </section>
+            <section class="formulario-quadro">
+                <h2>Forma de Pagamento:</h2>
+                <div class="formulario">
+                    <p>Número do cartão:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                    <p>Nome do titular:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                    <p>Validade:</p>
+                    <form action="">
+                        <input type="text" placeholder="__/____" required>
+                    </form>
+                    <p>Código de segurança:</p>
+                    <form action="">
+                        <input type="text" required>
+                    </form>
+                </div>
+            </section>
+        </section>
+        
+        <div id="titulo-final">
+            <h1 id="final">Finalizar compra</h1>
+        </div>
+
+        <div class="modal">
+            <div class="titulo">
+                <h2>Compra confirmada!</h2>
+                </div>
+                <p>Obrigado pro comprar em nossa loja!</p>
+                <a href="./index.html"><span class="close" id="fechar-modal"><img class="img-fechar" src="./assets/fechar.png" alt=""></span></a>
+        </div>
+    </main>
+    <script src="./checkout.js"></script>
+</body>
+</html>

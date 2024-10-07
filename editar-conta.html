@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho">
+            <div class="div-link-cabecalho">
+                <a href="index.html"><img class="icones" style="width: 2vw;" src="./assets/seta.png" alt=""></a>
+            </div>
+            <div class="div-imagem-cabecalho">
+                <img class="logo" src="./assets/logo2.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="titulo1">Editar Conta</h1>
+        <section class="formularios">
+
+            <div class="formulario-quadro">
+                <p>Nome completo:</p>
+                <form action="">
+                    <input id="nome" type="text" required>
+                </form>
+            </div>
+
+            <div id=" titulo-final">
+                <button onclick="{atualizarConta(event)}"><h1 id="final">Editar Conta!</h1></button>
+            </div>
+        </section>
+
+        <div class="modal">
+            <div class="titulo">
+                <h2>Conta editada!</h2>
+            </div>
+            <a href="./index.html"><span class="close" id="fechar-modal"><img class="img-fechar"
+                        src="./assets/fechar.png" alt=""></span></a>
+        </div>
+    </main>
+    <script src="./editar-conta.js"></script>
+</body>
+
+</html>
